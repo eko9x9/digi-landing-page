@@ -1,0 +1,123 @@
+
+
+.my-swiper {
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+
+    &-1 {
+        background-image: url("../../img/bg-nav-head.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .text {
+            max-width: 75%;
+
+            h2, h1 {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+
+        .btn {
+            font-size: 13px;
+            text-transform: uppercase;
+            background-color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+            margin-top: 18px;
+            border-radius: 5px;
+            
+            a {
+                color: #000;
+            }
+
+            &:hover {
+                background-color: transparent;
+                border: 1px solid #fff;
+                
+                a {
+                    color: #fff !important;
+                }
+            }
+
+        }
+    }
+
+    &-2 {
+        // background-image: url("https://source.unsplash.com/user/erondu");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+
+    &-3 {
+        // background-image: url("https://source.unsplash.com/random");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+
+}
+
+.arrow {
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+    div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+
+        &:hover {
+            border: 1px solid rgba($color: #fff, $alpha: .8);
+            background-color: #DE4849;
+        }
+    }
+}
+
