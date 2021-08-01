@@ -27,6 +27,22 @@ export default function Heading(): ReactElement {
                         <h4>DIGITAL MARKETING</h4>
                         <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
                     </div>
+
+                    <div className="">
+                        <i className="fas fa-2x fa-cloud-meatball "></i>
+                        <h4>UNIQUE IDEAS</h4>
+                        <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.</p>
+                    </div>
+                    <div className="">
+                        <i className="fas fa-2x fa-cogs"></i>
+                        <h4>EASY CUSTOMIZATION</h4>
+                        <p>We build mobile apps for the conference, integrating unique content and branding to create.</p>
+                    </div>
+                    <div className="">
+                        <i className="fas fa-2x fa-desktop"></i>
+                        <h4>FULLY RESPONSIVE</h4>
+                        <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
+                    </div>
                 </div>
             </div>
         </section>

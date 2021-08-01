@@ -7,7 +7,6 @@ export default function Swiper() {
   const [secondSwiper, setSecondSwiper] = useState(null);
 
   return (
-      <div className="swiper">
       <SwiperLib
         spaceBetween={0}
         slidesPerView={1}
@@ -24,31 +23,12 @@ export default function Swiper() {
                 <p>We develop product and services for ecommerce, insurance and handful of other key industries</p>
               </div>
 
-              <div onClick={() => console.log(window.pageYOffset)} className="btn">
-                <a href="#">Start a project</a>
+              <div className="p">
+                <a className="btn" href="#">Start a project</a>
               </div>
             </div>
           </div>
         </SwiperSlide>
       </SwiperLib>
-      <div className="arrow">
-        <div className="" onClick={ () => {
-          const swiper = document.querySelector<any>('.swiper-container').swiper;
-
-          swiper.slidePrev();
-          
-        }}>
-          <i className="fas fa-arrow-left"></i>
-        </div>
-        <div className=""  onClick={ () => {
-          const swiper = document.querySelector<any>('.swiper-container').swiper;
-
-          swiper.slideNext();
-
-        }}>
-          <i className="fas fa-arrow-right"></i>
-        </div>
-      </div>
-    </div>
   );
 };

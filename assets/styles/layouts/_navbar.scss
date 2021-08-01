@@ -73,19 +73,6 @@
 
 }
 
-@keyframes addBgWhite {
-  100% {
-    background-color: #fff;
-    color: #000;
-  }
-}
-
-@keyframes changeHeight {
-    100% {
-        height: 60px;
-    }
-}
-
 .bg-white-nav {
     animation-name: addBgWhite;
     animation-duration: 1s;
